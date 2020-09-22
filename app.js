@@ -50,7 +50,7 @@ console.log(anh);
 
 
 
-class OldGirlFriend extends Person {
+class oldGirlFriend extends Person {
     appearance;
 
     constructor(name, age, address, appearance) {
@@ -63,8 +63,8 @@ class OldGirlFriend extends Person {
     }
 }
 
-let hong = new OldGirlFriend("hong", 22, "Ha Noi", "Beauty Girl");
-let hai = new OldGirlFriend("hai", 21, "Hai phong", "Cute Girl");
+let hong = new oldGirlFriend("hong", 22, "Ha Noi", "Beauty Girl");
+let hai = new oldGirlFriend("hai", 21, "Hai phong", "Cute Girl");
 console.log(hong);
 console.log(hai);
 hong.speak();
@@ -91,7 +91,7 @@ class List {
         let age = prompt("age nyc");
         let address = prompt("address nyc");
         let appearance = prompt("appearance nyc");
-        let oldgirlfriend = new OldGirlFriend(name, age, address, appearance);
+        let oldgirlfriend = new oldGirlFriend(name, age, address, appearance);
         this.persons.push(oldgirlfriend); // e không hiểu em sai ở chỗ nào mà khi chạy ko thực hiện push vào được ạ
     }
     showAll() {

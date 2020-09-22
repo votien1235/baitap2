@@ -87,10 +87,10 @@ class List {
         this.persons.push(crush); // e không hiểu em sai ở chỗ nào mà khi chạy ko thực hiện push vào được ạ
     }
     addOldGirlfriend() {
-        let name = prompt("Nhập tên nyc");
-        let age = prompt("Nhập tuổi nyc");
-        let address = prompt("Nhập địa chỉ nyc");
-        let appearance = prompt("Miêu tả ngoại hình nyc");
+        let name = prompt("Name nyc");
+        let age = prompt("age nyc");
+        let address = prompt("address nyc");
+        let appearance = prompt("appearance nyc");
         let oldgirlfriend = new OldGirlFriend(name, age, address, appearance);
         this.persons.push(oldgirlfriend); // e không hiểu em sai ở chỗ nào mà khi chạy ko thực hiện push vào được ạ
     }

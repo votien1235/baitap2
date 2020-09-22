@@ -84,7 +84,7 @@ class List {
         let appearance = prompt("appearance crush");
         let favourites = prompt("favourites Crush ");
         let crush = new Crush(name, age, address, favourites, appearance);
-        this.persons.push(crush);
+        this.persons.push(crush); // e không hiểu em sai ở chỗ nào mà khi chạy ko thực hiện push vào được ạ
     }
     addOldGirlfriend() {
         let name = prompt("Nhập tên nyc");
@@ -92,7 +92,7 @@ class List {
         let address = prompt("Nhập địa chỉ nyc");
         let appearance = prompt("Miêu tả ngoại hình nyc");
         let oldgirlfriend = new OldGirlFriend(name, age, address, appearance);
-        this.persons.push(oldgirlfriend);
+        this.persons.push(oldgirlfriend); // e không hiểu em sai ở chỗ nào mà khi chạy ko thực hiện push vào được ạ
     }
     showAll() {
         for (let i = 0; i < this.persons.length; i++) {

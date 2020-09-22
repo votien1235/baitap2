@@ -72,7 +72,7 @@ hong.speak();
 
 class List {
     owner;
-    persons;
+    persons = [];
     constructor(owner, persons) {
         this.owner = owner;
         this.persons = persons;
@@ -100,5 +100,5 @@ class List {
         }
     }
 }
-let Thao = new List();
+let Thao = new List('tien','thao');
 Thao.addOldGirlfriend();
